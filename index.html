@@ -63,7 +63,8 @@
                 }
             },
             mounted() {
-                const url = 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-D074525B-C033-4B85-BE6A-3F1C6A162C52';
+                const url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-D074525B-C033-4B85-BE6A-3F1C6A162C52';
+                console.log(url);
                 fetch(url)
                     .then(function (response) {
                         return response.json();
